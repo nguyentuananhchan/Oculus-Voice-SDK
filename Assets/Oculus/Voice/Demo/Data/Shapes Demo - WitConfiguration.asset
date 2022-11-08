@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: Shapes Demo - WitConfiguration
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 11400000}
+    name: shapes_demo_1
+    id: 834513444132311
+    lang: en
+    isPrivate: 0
+    createdAt: 2021-06-02T20:37:19-0700
+  configId: 4e21a24e472ab684e84db753427d5687
+  clientAccessToken: WXA27HWPKEGOGLO3XUEQBOQKUVJ363GC
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 763329261429824
+    name: color
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 1147677679169628
+      name: color
+    keywords:
+    - keyword: blue
+      synonyms:
+      - blue
+    - keyword: green
+      synonyms:
+      - green
+    - keyword: red
+      synonyms:
+      - red
+    - keyword: yellow
+      synonyms:
+      - yellow
+  - witConfiguration: {fileID: 11400000}
+    id: 670740398013746
+    name: shape
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 776393556993883
+      name: shape
+    keywords:
+    - keyword: Capsule
+      synonyms:
+      - capsule
+    - keyword: Sphere
+      synonyms:
+      - sphere
+    - keyword: cube
+      synonyms:
+      - cube
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 5570776179708263
+    name: change_color
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 1147677679169628
+      name: color:color
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 776393556993883
+      name: shape:shape
+      lookups: []
+      roles: []
+      keywords: []
+  traits:
+  - witConfiguration: {fileID: 11400000}
+    id: 5900cc2d-867c-4bf0-beb6-ef6e6bf45ca5
+    name: wit$thanks
+    values:
+    - id: e5cce196-9948-420c-a9fb-9c2fd201adaf
+      value: true
+  isDemoOnly: 1
+  useConduit: 0
+  manifestLocalPath: ConduitManifest-0ccdb31c-4b53-4c9c-b42d-1e462780dcb3.json
+  autoGenerateManifest: 0
+  openManifestOnGeneration: 0

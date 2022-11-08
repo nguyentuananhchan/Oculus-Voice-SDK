@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: Timi
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 11400000}
+    name: timivn
+    id: 1162861107637627
+    lang: vi
+    isPrivate: 0
+    createdAt: 2022-10-05T21:06:25-0700
+  configId: ed2480f0aaaf6ca44bdcf36512d808c7
+  clientAccessToken: USRQHELSB7ENLCAWLC65DSUUIOR6DX7E
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 3281252605455424
+    name: Color
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 1038986900203059
+      name: Color
+    keywords:
+    - keyword: Black
+      synonyms:
+      - black
+    - keyword: Blue
+      synonyms:
+      - blue
+    - keyword: Brown
+      synonyms:
+      - brown
+    - keyword: Gray
+      synonyms:
+      - gray
+    - keyword: Green
+      synonyms:
+      - green
+    - keyword: Orange
+      synonyms:
+      - orange
+    - keyword: Pink
+      synonyms:
+      - pink
+    - keyword: Purple
+      synonyms:
+      - purple
+    - keyword: Red
+      synonyms:
+      - red
+    - keyword: White
+      synonyms:
+      - white
+    - keyword: Yellow
+      synonyms:
+      - yellow
+  - witConfiguration: {fileID: 11400000}
+    id: 1245686959547398
+    name: Shape
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 1109940236291869
+      name: Shape
+    keywords:
+    - keyword: Capsule
+      synonyms:
+      - capsule
+    - keyword: Cube
+      synonyms:
+      - cube
+    - keyword: Cylinder
+      synonyms:
+      - cylinder
+    - keyword: Sphere
+      synonyms:
+      - sphere
+  - witConfiguration: {fileID: 11400000}
+    id: 764958531335836
+    name: call_timi
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 826502818536308
+      name: call_timi
+    keywords:
+    - keyword: "N\xE0y Timi"
+      synonyms:
+      - "n\xE0y timi"
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 1089091455328461
+    name: active_micro
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 826502818536308
+      name: call_timi:call_timi
+      lookups: []
+      roles: []
+      keywords: []
+  traits: []
+  isDemoOnly: 0
+  useConduit: 0
+  manifestLocalPath: ConduitManifest-916d28fb-4290-4d24-a35e-511067dba331.json
+  autoGenerateManifest: 0
+  openManifestOnGeneration: 0
